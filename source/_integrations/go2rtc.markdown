@@ -40,6 +40,8 @@ url:
   type: string
 {% endconfiguration %}
 
+More information about the go2rtc project can be found on GitHub: https://github.com/AlexxIT/go2rtc/
+
 
 ### Examples
 
@@ -50,4 +52,3 @@ go2rtc:
   url: http://my-go2rtc-instance:1984
 ```
 
-More information about the `go2rtc` can be found on GitHub: https://github.com/AlexxIT/go2rtc/
