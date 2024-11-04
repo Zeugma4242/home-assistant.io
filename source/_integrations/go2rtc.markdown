@@ -1,12 +1,14 @@
 ---
 title: go2rtc
 description: Instructions on how to setup go2rtc in Home Assistant.
-ha_config_flow: false
+ha_category:
+  - Camera
 ha_release: 2024.11
 ha_iot_class: Local Polling
 ha_codeowners:
   - '@home-assistant/core'
 ha_domain: go2rtc
+ha_integration_type: system
 related:
   - docs: /installation/
 ---
@@ -39,6 +41,13 @@ url:
   description: The URL to the selfhosted [go2rtc](https://github.com/AlexxIT/go2rtc/) server
   type: string
 {% endconfiguration %}
+
+{% warning %}
+
+The `debug_ui` should only enabled during debugging as it will expose port 1984 without any authentication!
+Please disable the `debug_ui` immediately after debugging.
+
+{% endwarning %}
 
 More information about the go2rtc project can be found on GitHub: https://github.com/AlexxIT/go2rtc/
 
