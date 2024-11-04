@@ -33,12 +33,12 @@ The following YAML options are available:
 {% configuration %}
 debug_ui:
   required: false
-  description: Enables the UI of the go2rtc, which helps debugging WebRTC issues. The `debug_ui` should only enabled during debugging as it will expose port 1984 without any authentication!
+  description: Enables the UI of the go2rtc, which helps debugging WebRTC issues. The `debug_ui` should only be enabled during debugging as it will expose port 1984 without any authentication!
   default: false
   type: boolean
 url:
   required: false
-  description: The URL to the selfhosted [go2rtc](https://github.com/AlexxIT/go2rtc/) server
+  description: The URL to the self-hosted [go2rtc](https://github.com/AlexxIT/go2rtc/) server
   type: string
 {% endconfiguration %}
 
@@ -49,7 +49,7 @@ Please disable the `debug_ui` immediately after debugging.
 
 {% endwarning %}
 
-More information about the go2rtc project can be found on GitHub: https://github.com/AlexxIT/go2rtc/
+More information about the go2rtc project can be found on its [GitHub page](https://github.com/AlexxIT/go2rtc/)
 
 
 ### Examples
